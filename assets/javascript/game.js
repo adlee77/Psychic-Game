@@ -16,6 +16,8 @@ winsSpan.innerHTML = wins
 lossesSpan.innerHTML = losses
 GuessesSpan.innerHTML = guesses     
 
+alert("Type a letter to Begin.");
+
 window.onkeypress = function(event) {
 
     var keyboard =  parseInt(event.keyCode)
